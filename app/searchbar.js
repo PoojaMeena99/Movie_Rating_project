@@ -1,7 +1,7 @@
 function Searchbar() {
     return (
-        <div className="row justify-content-center search_row">
-            <div className="col search_box">
+        <div className="justify-content-center search_row">
+            <div className="search_box">
                 <input
                     className="input_box"
                     placeholder="search..."

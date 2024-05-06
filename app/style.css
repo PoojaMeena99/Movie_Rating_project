@@ -1,0 +1,275 @@
+body {
+  background: #0e0e15;
+}
+
+.container {
+  border: white 1px solid;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 360px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 680px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+/* searchbar container */
+
+.search_row {
+  border: 1px solid yellow;
+}
+
+.search_box {
+  border: 1px solid #3c3030;
+  height: 61px;
+  width: 324px;
+  padding: 0px;
+}
+
+.input_box {
+  height: 61px;
+  width: 260px;
+  /* border: none; */
+  padding: 0px;
+  padding-left: 20px;
+}
+.add_btn {
+  background-color: #e84848;
+  width: 62px;
+  height: 61px;
+  color: white;
+  /* border: none; */
+  border-radius: 0px 2px 2px 0px;
+}
+
+/* header css */
+
+.imag_vector {
+  margin-right: 23px;
+}
+.imag_list {
+  margin-right: 36px;
+}
+
+.searchbar_row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  margin-top: 30px;
+  align-items: center;
+}
+.movie_logo {
+  align-self: center;
+}
+.menu {
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .searchbox {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .searchbox {
+    margin-top: 0px;
+  }
+}
+
+.header_bottom {
+  border: 1px solid red;
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .header_bottom {
+    margin-bottom: 50px;
+  }
+}
+
+/* grid css */
+
+.grid{
+    border: 1px solid yellow;
+  }
+  
+.movie_image {
+  border: 1px solid blueviolet;
+  height: auto;
+  max-height: 257px;
+  margin-top: 28px;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+.movie_details {
+  border: 1px solid red;
+  height: 379px;
+  color: white;
+  padding-left: 16px;
+}
+.movie_name {
+  color: #f3f3f3;
+  font-family: Kanit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border: 1px solid palevioletred;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+.movie_release_details {
+  border: 1px solid palevioletred;
+  margin-bottom: 12px;
+}
+
+.release_year,.movie_genre,.line {
+  color: #f3f3f3;
+  font-family: Kanit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; 
+}
+.release_year ,.movie_genre{
+    border: 1px solid palevioletred;
+  }
+.description {
+  border: 1px solid palevioletred;
+  color: #f3f3f3;
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 132%; 
+  margin-bottom: 4px;
+}
+.description_para {
+  border: 1px solid palevioletred;
+  color: #f3f3f3;
+  font-family: Kanit;
+  font-size: 14px;
+  line-height: 120%;
+  font-weight: 30;
+}
+@media (max-width: 992px) {
+  .like_row {
+    margin-top: 28px;
+  }
+}
+
+.like_row {
+  border: white 1px solid;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.counter {
+    border: 1px solid blue;
+    /* width: 200px;  */
+    display: flex;
+    align-items: center;
+}
+.counter_row {
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like_image,
+.dislike_image {
+  width: 40px;
+}
+
+.count_div {
+  width: 45px;
+  height: 45px;
+  background-color: #272734;
+  border-radius: 50%;
+  font-size: 25px;
+  border: 1px solid yellow;
+}
+
+@media (max-width: 992px) {
+  .delete_div {
+    width: 80px;
+    border: 1px solid red;
+  }
+}
+
+.delete_image {
+  border: 1px solid wheat;
+  width: 40px;
+}
+
+@media (min-width: 992px) {
+  .grid {
+    margin-top: 51px;
+  }
+  .movie_image {
+    height: 257px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+  }
+  .movie_details {
+    height: 257px;
+  }
+}
+
+/* footer css */
+
+.footer-container {
+  background-color: #272734;
+  /* border-top: 1px solid #f3f3f3; */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-container {
+    margin-top: 62px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-container {
+    margin-top: 100px;
+  }
+}
+
+.footer-img {
+  text-align: center;
+  padding: 0px;
+}
+.one {
+  margin-top: 41px;
+  margin-bottom: 15px;
+}
+.two {
+  margin-bottom: 28px;
+}
+.three {
+  margin-bottom: 53px;
+}
+
+.bottom_border {
+  border: 1px solid #bb332b;
+  margin-top: 37px;
+}
+@media (max-width: 768px) {
+  .bottom_border {
+    margin-top: 0px;
+  }
+}
+.Tag {
+  margin-top: 81px;
+  margin-bottom: 30px;
+  text-align: center;
+}
